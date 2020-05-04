@@ -1,0 +1,28 @@
+
+The training data is a json file with code-mixed questions and answers.
+
+The languages present in the dataset include Hinglish, Tenglish and Tamlish.
+
+The file includes the keys 'user', which you can change to your username while submitting the test batches. More information about this will be updated soon.
+
+The 'division' key corresponds to 'train'/'test' divisions.
+
+The questions are elicited from hinglishpedia.com and general images from Google Search.
+
+A dictionary with key 'questions', has a list of questions. Each element in the list has the following information: 
+'context': hinglishpedia article or general for image questions
+'query': the body of the question
+'answer': answer
+'id': question id
+and language information.
+
+
+If you use this data for a publication or other work, please cite the following work: (A conference paper corresponding to this work is onging, please recheck the citation here):
+
+@article{chandu2018code,
+  title={Code-Mixed Question Answering Challenge: Crowd-sourcing Data and Techniques},
+  author={Chandu, Khyathi Raghavi and Loginova, Ekaterina and Gupta, Vishal and van Genabith, Josef and {\"u}nter Neuman, G and Chinnakotla, Manoj and Nyberg, Eric and Black, Alan},
+  journal={ACL 2018},
+  pages={29},
+  year={2018}
+}
